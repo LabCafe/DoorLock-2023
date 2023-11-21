@@ -5,7 +5,7 @@
 </p>
 
 ## Introduction
-<p>DoorLock-2023 is an advanced door access control system, leveraging the capabilities of the ESP32 DevKit V4 and integrating with the Fabman API for robust access management. Designed for versatility, it works with any ESP32 module and is enhanced with an extendable antenna for improved WiFi connectivity.</p>
+<p>DoorLock-2023 is an advanced door access control system, leveraging the capabilities of the ESP32 DevKit V4 and integrating with the Fabman API for access management. Designed for versatility, it works with any ESP32 module and is enhanced with an extendable antenna for improved WiFi connectivity.</p>
 
 ## Requirements
 <ul>
@@ -15,12 +15,13 @@
 
 ## Hardware Components
 <ul>
-  <li>ESP32 DevKit V4 (with extendable antenna for enhanced connectivity)</li>
-  <li>RDM6300 125MHz RFID Reader</li>
-  <li>External WiFi Antenna (compatible with ESP32)</li>
-  <li>18650 Single Cell Battery</li>
-  <li>18650 Battery Holder with 5V Step-Up for Backup Power</li>
-  <li>IRF540N MOSFET for Electromagnetic Lock Control</li>
+  <li>ESP32 DevKit V4: Ideal for its extendable antenna, enhancing WiFi connectivity. Compatible with any ESP32 module</li>
+  <li>RDM6300 125MHz RFID Reader: For RFID tag reading in access control systems</li>
+  <li>External WiFi Antenna: Enhances the WiFi range and stability for the ESP32</li>
+  <li>18650 Single Cell Battery: Provides the primary power source for the system</li>
+  <li>18650 Battery Holder with 5V Step-Up: Ensures a consistent power supply and includes a backup capability</li>
+  <li>IRF540N MOSFET: Controls the electromagnetic lock</li>
+  <li>WS2812 Addressable LED Strip: Used for visual feedback and status indicators</li>
 </ul>
 
 ## Libraries
