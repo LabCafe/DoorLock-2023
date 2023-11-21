@@ -13,13 +13,8 @@
 #define RGB_STRIP_PIN 5
 #define NUM_LEDS 3
 
-const char* API_KEY = "4ffdc9f9-2609-4c8f-80e5-3b2c65f72e2a";
+const char* API_KEY = "REPLACE_WITH_YOUR_API_KEY"; // Replace with your personal API key
 const char* BEARER_HEADER = "Bearer ";
-
-// const char* ssid = "Lab.dielna";
-// const char* password = "GetConnected87";
-const char* ssid = "HUAWEI-W59S";
-const char* password = "Wvykr2EK";
 
 // Global Variables
 Rdm6300 rdm6300;
@@ -52,12 +47,9 @@ void setup() {
   setupRDM6300();
   
   // Add your networks to the WiFiMulti object
-  wifiMulti.addAP("ŠpMNDaG Žiaci", "mimoariadne");
-  wifiMulti.addAP("Lab.systems", "createavity");
-  wifiMulti.addAP("Lab.member", "createavity");
-  wifiMulti.addAP("Lab.dielna", "GetConnected87");
-  wifiMulti.addAP("HUAWEI-W59S", "Wvykr2EK");
-  wifiMulti.addAP("Samuel’s iPhone (3)", "Mklsmuuu");
+  wifiMulti.addAP("Your_SSID", "Your_Password");
+  wifiMulti.addAP("Your_SSID", "Your_Password");
+  wifiMulti.addAP("Your_SSID", "Your_Password");
   
   setupWiFi();
   
