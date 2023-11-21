@@ -1,16 +1,26 @@
 <h1 align="center">DoorLock-2023</h1>
 
 <p align="center">
-  <strong>An ESP32-based RFID door lock system</strong>
+  <strong>An ESP32-based RFID Door Lock System with Fabman API Integration</strong>
 </p>
 
 ## Introduction
-<p>DoorLock-2023 is an ESP32-based project designed for controlling door access using RFID technology. It integrates WiFi for network connectivity and uses a set of LED indicators for visual feedback.</p>
+<p>DoorLock-2023 is an advanced door access control system, leveraging the capabilities of the ESP32 DevKit V4 and integrating with the Fabman API for robust access management. Designed for versatility, it works with any ESP32 module and is enhanced with an extendable antenna for improved WiFi connectivity.</p>
 
 ## Requirements
 <ul>
   <li>PlatformIO IDE</li>
-  <li>ESP32 development board</li>
+  <li>Any ESP32 module (ESP32 DevKit V4 with an extendable antenna recommended)</li>
+</ul>
+
+## Hardware Components
+<ul>
+  <li>ESP32 DevKit V4 (with extendable antenna for enhanced connectivity)</li>
+  <li>RDM6300 125MHz RFID Reader</li>
+  <li>External WiFi Antenna (compatible with ESP32)</li>
+  <li>18650 Single Cell Battery</li>
+  <li>18650 Battery Holder with 5V Step-Up for Backup Power</li>
+  <li>IRF540N MOSFET for Electromagnetic Lock Control</li>
 </ul>
 
 ## Libraries
@@ -34,7 +44,7 @@
 </ol>
 
 ## Usage
-<p>After uploading the code to your ESP32 board, the system will be ready to use. Present RFID tags to the reader to control the door lock.</p>
+<p>After uploading the code to your ESP32 board, the system will be ready for operation. Present RFID tags to the reader for authenticated door access control, managed seamlessly through the Fabman API.</p>
 
 <footer>
   <p align="center">© 2023 DoorLock-2023 Project</p>
