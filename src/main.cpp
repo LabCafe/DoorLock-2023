@@ -14,7 +14,7 @@
 #define NUM_LEDS 3
 
 const char* API_KEY = "REPLACE_WITH_YOUR_API_KEY"; // Replace with your personal API key
-const char* BEARER_HEADER = "Bearer ";
+const char* BEARER_HEADER = "Bearer "; 
 
 // Global Variables
 Rdm6300 rdm6300;
